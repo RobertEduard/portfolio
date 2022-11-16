@@ -11,27 +11,6 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
-  <style>
-    body {
-      color: white;
-      background-color: #242526;
-    }
-
-    .card {
-      background-color: #242526;
-      border-radius: 20px;
-    }
-
-    .cover-photo {
-      position: relative;
-      height: 300px;
-      background-size: cover;
-      background-position: center;
-      background-image: coverjpg;
-    }
-  </style>
-
   <body>
     <nav>
       <div class="nav-left">
@@ -51,8 +30,55 @@
           <img src="images/search.png" />
           <input type="text" placeholder="Search" />
         </div>
-        <div class="nav-user-icon online">
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
           <img src="images/profile-pic.jpg" />
+        </div>
+      </div>
+      <!-- settings-menu -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.jpg" />
+            <div>
+              <p>Robert Eduard D. Suico Jr.</p>
+              <a href="/posts.html">See your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new desing</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -66,8 +92,7 @@
           <a href="/photo.html"><img src="images/group.png" /> Photo</a>
           <a href="/about.html"><img src="images/marketplace.png" /> About</a>
           <a href="/video.html"><img src="images/watch.png" /> Video</a>
-          <a href="/expectation.html">Expectation</a>
-          <a href="/quote.html">See More</a>
+          <a href="#">See More</a>
         </div>
         <div class="shortcut-links">
           <p>Your Shortcuts</p>
@@ -361,5 +386,6 @@
     <div class="footer">
       <p>Copyright 2022 - Robert Eduard Youtube Channel</p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
