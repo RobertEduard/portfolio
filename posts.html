@@ -82,54 +82,63 @@
         </div>
       </div>
     </nav>
-    <!-- Cover Photo Area -->
-    <section
-      style="
-        position: relative;
-        height: 300px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url('cover.jpg');
-      "
-    >
-      <!-- Profile Picture Area -->
-      <div style="position: absolute; bottom: -150px; left: 100px">
-        <img
-          style="border: 5px solid #242526; border-radius: 50%"
-          height="180 width="
-          180
-          src="images/profile-pic.jpg"
-        />
-      </div>
 
-      <div
+    <body style="text-align: center">
+      <!-- Cover Photo Area -->
+      <section
+        style="
+          position: relative;
+          height: 300px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url('cover.jpg');
+        "
+      >
+        <!-- Profile Picture Area -->
+        <div style="position: absolute; bottom: -150px; left: 100px">
+          <img
+            style="border: 5px solid #242526; border-radius: 50%"
+            height="180 width="
+            180
+            src="images/profile-pic.jpg"
+          />
+        </div>
+  
+        <div
         style="position: absolute; bottom: -60px; left: 310px; text-align: left"
       >
-        <!-- Personal Information Area -->
-        <div style="font-weight: 900; font-size: 28px">
+        <div style="font-weight: 900; font-size: 28px; color: blueviolet">
           Robert Eduard D. Suico Jr.
         </div>
-        <div>4,778 friends</div>
+        <div style="color: blueviolet">4,778 friends</div>
       </div>
-    </section>
-    <!-- News Feed Area -->
-    <section
-      style="margin-top: 180px; padding: 0% 40px;"
-    >
-      <!-- Navigation Area -->
-      <div style="width: 60%; display: flex; gap: 10px; padding: 20px 10px">
-        <a href="/index.html"><strong>Home</strong></a>
-        <a href="/posts.html"><strong>Posts</strong></a>
-        <a href="/about.html"><strong>About</strong></a>
-        <a href="/friends.html"><strong>Friends</strong></a>
-        <a href="/photo.html"><strong>Photos</strong></a>
-        <a href="/video.html"><strong>Videos</strong></a>
-        <a href="/expectation.html"><strong>Expectation</strong></a>
-        <a href="/quote.html"><strong>Quote&#9662;</strong></a>
-      </div>
-      <h4>&#8220;My Portfolio&#8221;</h4>
-    </section>
+      </section>
+      <!-- News Feed Area -->
+      <section
+        style="margin-top: 180px; padding: 0% 40px;"
+      >
+        <!-- Navigation Area -->
+        <section style="margin-top: 170px; border-top: 3px solid rgb(50, 27, 30)">
+          <div
+            style="
+              width: 60%;
+              display: flex;
+              gap: 10px;
+              padding: 20px 10px;
+              color: blueviolet;
+            "
+          >
+          <a href="/index.html"><strong>Home</strong></a>
+          <a href="/posts.html"><strong>Posts</strong></a>
+          <a href="/about.html"><strong>About</strong></a>
+          <a href="/friends.html"><strong>Friends</strong></a>
+          <a href="/photo.html"><strong>Photos</strong></a>
+          <a href="/video.html"><strong>Videos</strong></a>
+          <a href="/expectation.html"><strong>Expectation</strong></a>
+          <a href="/quote.html"><strong>Quote&#9662;</strong></a>
+        </div>
+      </section>
     <div
       style="
         height: 100%;
@@ -142,26 +151,217 @@
         style="
           height: 300px;
           width: 40%;
-          background: #242526;
           border-radius: 20px;
+          justify-content: center;          
+          text-align: left;
         "
       >
-        Personal info
+      <div class="post-container">
+      <h4>Works at Facebook</h4>
+      <h4>Born on May 19, 2001</h4>
+      <h4>Went to MSU-IIT IRDA,Lala Proper</h4>
+      <h4>Went to Christ the King High School</h4>
+      <h4>Currently Studying at Christ the King College de Maranding,
+        Inc.
+      </h4>
+      </div>
       </div>
       <!-- Post area -->
       <div
         style="
           height: 500px;
           width: 60%;
-          background-color: #242526;
           border-radius: 20px;
         "
       >
-        Post area
+      <div class="write-post-container">
+        <div class="user-profile">
+          <img src="images/profile-pic.jpg" />
+          <div>
+            <p>Robert Eduard D. Suico Jr.</p>
+            <small>Public <i class="fas fa-caret-down"></i></small>
+          </div>
+        </div>
+
+        <did class="post-input-container">
+          <textarea
+            rows="3"
+            placeholder="What's on your mind, Robert Eduard?"
+          ></textarea>
+          <div class="add-post-links">
+            <a href="#"><img src="images/live-video.png" /> Live Video</a>
+            <a href="#"><img src="images/photo.png" /> Photo/Video</a>
+            <a href="#"><img src="images/feeling.png" /> Feeling/Activity</a>
+          </div>
+        </did>
       </div>
-    </div>
-    <div class="footer">
-      <p>Copyright 2022 - Robert Eduard Youtube Channel</p>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Robert Eduard D. Suico Jr.</p>
+                <small>October 17 2022, 10:30 am</small>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Learning mates with our teacher on teachers day
+            <a href="#">#RobertEduard</a> <a href="#">#YouTubeChannel</a>
+            <a href="#">#roberteduard19</a> <a href="#">#Instagram</a>
+          </p>
+          <img src="images/feed-image-1.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" /> 120</div>
+              <div><img src="images/comments.png" /> 20</div>
+              <div><img src="images/share.png" /> 12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Robert Eduard D. Suico Jr.</p>
+                <small>October 17 2022, 10:30 am</small>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Graduation day pictorial <span>@Robert Eduard</span>
+            <span>@roberteduard19</span>
+            <a href="#">#RobertEduard</a> <a href="#">#YouTubeChannel</a>
+            <a href="#">#roberteduard19</a> <a href="#">#Instagram</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 120</div>
+              <div><img src="images/comments.png" /> 20</div>
+              <div><img src="images/share.png" /> 12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Robert Eduard D. Suico Jr.</p>
+                <small>October 17 2022, 10:30 am</small>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Nap time with the Love of my life <span>@Robert Eduard</span>
+            <span>@roberteduard19</span>
+            <a href="#">#RobertEduard</a> <a href="#">#YouTubeChannel</a>
+            <a href="#">#roberteduard19</a> <a href="#">#Instagram</a>
+          </p>
+          <img src="images/feed-image-3.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 120</div>
+              <div><img src="images/comments.png" /> 20</div>
+              <div><img src="images/share.png" /> 12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Robert Eduard D. Suico Jr.</p>
+                <small>October 17 2022, 10:30 am</small>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Hi to the people at the back cs days event
+            <span>@Robert Eduard</span>
+            <span>@roberteduard19</span>
+            <a href="#">#RobertEduard</a> <a href="#">#YouTubeChannel</a>
+            <a href="#">#roberteduard19</a> <a href="#">#Instagram</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 120</div>
+              <div><img src="images/comments.png" /> 20</div>
+              <div><img src="images/share.png" /> 12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Robert Eduard D. Suico Jr.</p>
+                <small>October 17 2022, 10:30 am</small>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Missing the old hair Korean dream Summertimes<span
+              >@Robert Eduard</span
+            >
+            <span>@roberteduard19</span>
+            <a href="#">#RobertEduard</a> <a href="#">#YouTubeChannel</a>
+            <a href="#">#roberteduard19</a> <a href="#">#Instagram</a>
+          </p>
+          <img src="images/feed-image-6.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 120</div>
+              <div><img src="images/comments.png" /> 20</div>
+              <div><img src="images/share.png" /> 12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
